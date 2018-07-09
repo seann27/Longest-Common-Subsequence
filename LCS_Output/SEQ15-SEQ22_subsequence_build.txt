@@ -1,0 +1,31 @@
+==============================================
+========= LONGEST COMMON SUBSEQUENCE =========
+==============================================
+
+SEQ15: CG
+SEQ22: ACACTCCCAGATGTCCCTACAGCTAAGAGGATAAGTATTCTGGATTTATGTAATGAAATAGCAGGAGAAATTGAGTCTGATACAGTGGA
+
+---------------------------
+-----CALCULATED MATRIX-----
+---------------------------
+      A  C  A  C  T  C  C  C  A  G  A  T  G  T  C  C  C  T  A  C  A  G  C  T  A  A  G  A  G  G  A  T  A  A  G  T  A  T  T  C  T  G  G  A  T  T  T  A  T  G  T  A  A  T  G  A  A  A  T  A  G  C  A  G  G  A  G  A  A  A  T  T  G  A  G  T  C  T  G  A  T  A  C  A  G  T  G  G  A  
+  |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 
+C |0 |0 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 
+G |0 |0 |1 |1 |1 |1 |1 |1 |1 |1 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 |2 
+
+---------------------------------
+-----SUBSEQUENCE BUILD STEPS-----
+---------------------------------
+i: 2	j: 89	|  value: -
+i: 2	j: 88	|  value: G
+i: 1	j: 87	|  value: -
+i: 1	j: 86	|  value: -
+i: 1	j: 85	|  value: -
+i: 1	j: 84	|  value: -
+i: 1	j: 83	|  value: C
+
+
+SEQ15: CG
+SEQ22: ACACTCCCAGATGTCCCTACAGCTAAGAGGATAAGTATTCTGGATTTATGTAATGAAATAGCAGGAGAAATTGAGTCTGATACAGTGGA
+LONGEST COMMON SUBSEQUENCE: CG
+LCS Size: 2

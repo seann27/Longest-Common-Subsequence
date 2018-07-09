@@ -1,0 +1,64 @@
+==============================================
+========= LONGEST COMMON SUBSEQUENCE =========
+==============================================
+
+SEQ13: TGCTAAGCCTCCACATAAAAAGCTCACCGTAAAGAGACAGA
+SEQ16: A
+
+---------------------------
+-----CALCULATED MATRIX-----
+---------------------------
+      A  
+  |0 |0 
+T |0 |0 
+G |0 |0 
+C |0 |0 
+T |0 |0 
+A |0 |1 
+A |0 |1 
+G |0 |1 
+C |0 |1 
+C |0 |1 
+T |0 |1 
+C |0 |1 
+C |0 |1 
+A |0 |1 
+C |0 |1 
+A |0 |1 
+T |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+G |0 |1 
+C |0 |1 
+T |0 |1 
+C |0 |1 
+A |0 |1 
+C |0 |1 
+C |0 |1 
+G |0 |1 
+T |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+G |0 |1 
+A |0 |1 
+G |0 |1 
+A |0 |1 
+C |0 |1 
+A |0 |1 
+G |0 |1 
+A |0 |1 
+
+---------------------------------
+-----SUBSEQUENCE BUILD STEPS-----
+---------------------------------
+i: 41	j: 1	|  value: A
+
+
+SEQ13: TGCTAAGCCTCCACATAAAAAGCTCACCGTAAAGAGACAGA
+SEQ16: A
+LONGEST COMMON SUBSEQUENCE: A
+LCS Size: 0

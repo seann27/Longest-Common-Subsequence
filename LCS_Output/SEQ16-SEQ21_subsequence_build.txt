@@ -1,0 +1,33 @@
+==============================================
+========= LONGEST COMMON SUBSEQUENCE =========
+==============================================
+
+SEQ16: A
+SEQ21: CATCTGCCCCT
+
+---------------------------
+-----CALCULATED MATRIX-----
+---------------------------
+      C  A  T  C  T  G  C  C  C  C  T  
+  |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 
+A |0 |0 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 
+
+---------------------------------
+-----SUBSEQUENCE BUILD STEPS-----
+---------------------------------
+i: 1	j: 11	|  value: -
+i: 1	j: 10	|  value: -
+i: 1	j: 9	|  value: -
+i: 1	j: 8	|  value: -
+i: 1	j: 7	|  value: -
+i: 1	j: 6	|  value: -
+i: 1	j: 5	|  value: -
+i: 1	j: 4	|  value: -
+i: 1	j: 3	|  value: -
+i: 1	j: 2	|  value: A
+
+
+SEQ16: A
+SEQ21: CATCTGCCCCT
+LONGEST COMMON SUBSEQUENCE: A
+LCS Size: 1

@@ -1,0 +1,61 @@
+==============================================
+========= LONGEST COMMON SUBSEQUENCE =========
+==============================================
+
+SEQ8: TAAAAGAGCCCGTCCATTGTCACCTGTTAATAGGAA
+SEQ14: G
+
+---------------------------
+-----CALCULATED MATRIX-----
+---------------------------
+      G  
+  |0 |0 
+T |0 |0 
+A |0 |0 
+A |0 |0 
+A |0 |0 
+A |0 |0 
+G |0 |1 
+A |0 |1 
+G |0 |1 
+C |0 |1 
+C |0 |1 
+C |0 |1 
+G |0 |1 
+T |0 |1 
+C |0 |1 
+C |0 |1 
+A |0 |1 
+T |0 |1 
+T |0 |1 
+G |0 |1 
+T |0 |1 
+C |0 |1 
+A |0 |1 
+C |0 |1 
+C |0 |1 
+T |0 |1 
+G |0 |1 
+T |0 |1 
+T |0 |1 
+A |0 |1 
+A |0 |1 
+T |0 |1 
+A |0 |1 
+G |0 |1 
+G |0 |1 
+A |0 |1 
+A |0 |1 
+
+---------------------------------
+-----SUBSEQUENCE BUILD STEPS-----
+---------------------------------
+i: 36	j: 1	|  value: -
+i: 35	j: 1	|  value: -
+i: 34	j: 1	|  value: G
+
+
+SEQ8: TAAAAGAGCCCGTCCATTGTCACCTGTTAATAGGAA
+SEQ14: G
+LONGEST COMMON SUBSEQUENCE: G
+LCS Size: 0

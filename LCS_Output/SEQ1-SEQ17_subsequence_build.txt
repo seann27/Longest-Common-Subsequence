@@ -1,0 +1,70 @@
+==============================================
+========= LONGEST COMMON SUBSEQUENCE =========
+==============================================
+
+SEQ1: ACCGGTCGACTGCGCGGAAGCCGGCCGAA
+SEQ17: T
+
+---------------------------
+-----CALCULATED MATRIX-----
+---------------------------
+      T  
+  |0 |0 
+A |0 |0 
+C |0 |0 
+C |0 |0 
+G |0 |0 
+G |0 |0 
+T |0 |1 
+C |0 |1 
+G |0 |1 
+A |0 |1 
+C |0 |1 
+T |0 |1 
+G |0 |1 
+C |0 |1 
+G |0 |1 
+C |0 |1 
+G |0 |1 
+G |0 |1 
+A |0 |1 
+A |0 |1 
+G |0 |1 
+C |0 |1 
+C |0 |1 
+G |0 |1 
+G |0 |1 
+C |0 |1 
+C |0 |1 
+G |0 |1 
+A |0 |1 
+A |0 |1 
+
+---------------------------------
+-----SUBSEQUENCE BUILD STEPS-----
+---------------------------------
+i: 29	j: 1	|  value: -
+i: 28	j: 1	|  value: -
+i: 27	j: 1	|  value: -
+i: 26	j: 1	|  value: -
+i: 25	j: 1	|  value: -
+i: 24	j: 1	|  value: -
+i: 23	j: 1	|  value: -
+i: 22	j: 1	|  value: -
+i: 21	j: 1	|  value: -
+i: 20	j: 1	|  value: -
+i: 19	j: 1	|  value: -
+i: 18	j: 1	|  value: -
+i: 17	j: 1	|  value: -
+i: 16	j: 1	|  value: -
+i: 15	j: 1	|  value: -
+i: 14	j: 1	|  value: -
+i: 13	j: 1	|  value: -
+i: 12	j: 1	|  value: -
+i: 11	j: 1	|  value: T
+
+
+SEQ1: ACCGGTCGACTGCGCGGAAGCCGGCCGAA
+SEQ17: T
+LONGEST COMMON SUBSEQUENCE: T
+LCS Size: 0

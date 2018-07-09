@@ -1,0 +1,31 @@
+==============================================
+========= LONGEST COMMON SUBSEQUENCE =========
+==============================================
+
+SEQ15: CG
+SEQ19: TACTGCAAA
+
+---------------------------
+-----CALCULATED MATRIX-----
+---------------------------
+      T  A  C  T  G  C  A  A  A  
+  |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 
+C |0 |0 |0 |1 |1 |1 |1 |1 |1 |1 
+G |0 |0 |0 |1 |1 |2 |2 |2 |2 |2 
+
+---------------------------------
+-----SUBSEQUENCE BUILD STEPS-----
+---------------------------------
+i: 2	j: 9	|  value: -
+i: 2	j: 8	|  value: -
+i: 2	j: 7	|  value: -
+i: 2	j: 6	|  value: -
+i: 2	j: 5	|  value: G
+i: 1	j: 4	|  value: -
+i: 1	j: 3	|  value: C
+
+
+SEQ15: CG
+SEQ19: TACTGCAAA
+LONGEST COMMON SUBSEQUENCE: CG
+LCS Size: 2

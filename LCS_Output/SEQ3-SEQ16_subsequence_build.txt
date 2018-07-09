@@ -1,0 +1,69 @@
+==============================================
+========= LONGEST COMMON SUBSEQUENCE =========
+==============================================
+
+SEQ3: ATTGCATTGCATGGCGCGATGCATTTGGTTAATTCCTCG
+SEQ16: A
+
+---------------------------
+-----CALCULATED MATRIX-----
+---------------------------
+      A  
+  |0 |0 
+A |0 |1 
+T |0 |1 
+T |0 |1 
+G |0 |1 
+C |0 |1 
+A |0 |1 
+T |0 |1 
+T |0 |1 
+G |0 |1 
+C |0 |1 
+A |0 |1 
+T |0 |1 
+G |0 |1 
+G |0 |1 
+C |0 |1 
+G |0 |1 
+C |0 |1 
+G |0 |1 
+A |0 |1 
+T |0 |1 
+G |0 |1 
+C |0 |1 
+A |0 |1 
+T |0 |1 
+T |0 |1 
+T |0 |1 
+G |0 |1 
+G |0 |1 
+T |0 |1 
+T |0 |1 
+A |0 |1 
+A |0 |1 
+T |0 |1 
+T |0 |1 
+C |0 |1 
+C |0 |1 
+T |0 |1 
+C |0 |1 
+G |0 |1 
+
+---------------------------------
+-----SUBSEQUENCE BUILD STEPS-----
+---------------------------------
+i: 39	j: 1	|  value: -
+i: 38	j: 1	|  value: -
+i: 37	j: 1	|  value: -
+i: 36	j: 1	|  value: -
+i: 35	j: 1	|  value: -
+i: 34	j: 1	|  value: -
+i: 33	j: 1	|  value: -
+i: 32	j: 1	|  value: A
+
+
+SEQ3: ATTGCATTGCATGGCGCGATGCATTTGGTTAATTCCTCG
+SEQ16: A
+LONGEST COMMON SUBSEQUENCE: A
+LCS Size: 0

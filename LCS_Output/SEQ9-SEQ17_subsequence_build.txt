@@ -1,0 +1,51 @@
+==============================================
+========= LONGEST COMMON SUBSEQUENCE =========
+==============================================
+
+SEQ9: AAACAAAGGGACACAGGGACACCAAGGG
+SEQ17: T
+
+---------------------------
+-----CALCULATED MATRIX-----
+---------------------------
+      T  
+  |0 |0 
+A |0 |0 
+A |0 |0 
+A |0 |0 
+C |0 |0 
+A |0 |0 
+A |0 |0 
+A |0 |0 
+G |0 |0 
+G |0 |0 
+G |0 |0 
+A |0 |0 
+C |0 |0 
+A |0 |0 
+C |0 |0 
+A |0 |0 
+G |0 |0 
+G |0 |0 
+G |0 |0 
+A |0 |0 
+C |0 |0 
+A |0 |0 
+C |0 |0 
+C |0 |0 
+A |0 |0 
+A |0 |0 
+G |0 |0 
+G |0 |0 
+G |0 |0 
+
+---------------------------------
+-----SUBSEQUENCE BUILD STEPS-----
+---------------------------------
+i: 28	j: 1	|  value: -
+
+
+SEQ9: AAACAAAGGGACACAGGGACACCAAGGG
+SEQ17: T
+LONGEST COMMON SUBSEQUENCE: 
+LCS Size: 0

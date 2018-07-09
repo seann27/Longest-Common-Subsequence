@@ -1,0 +1,28 @@
+==============================================
+========= LONGEST COMMON SUBSEQUENCE =========
+==============================================
+
+SEQ17: T
+SEQ24: GACATGCCAAGCTCTCAGGATATCCAGAAGGAAGAGCATCCCATTGTGGAGAACAAAGAGAGTGCACAACGGAATACCCTGATGGGAGGATAATCATGGTATTGCCAGACGACCCTAAATATGCACTGAAAAAGGTTGATGAGATTAGAGAAATGGTTGATAATGACCTGGGTTTTCAGCAGGTTCCTCTAAGGCTCCATTCCAGAACCAAGACTCTTCTGTTTATTAGCAGTGACAAAAAAGTTGCTGGGTGTTTAATAGCAGAACATATCCAGTGGGG
+
+---------------------------
+-----CALCULATED MATRIX-----
+---------------------------
+      G  A  C  A  T  G  C  C  A  A  G  C  T  C  T  C  A  G  G  A  T  A  T  C  C  A  G  A  A  G  G  A  A  G  A  G  C  A  T  C  C  C  A  T  T  G  T  G  G  A  G  A  A  C  A  A  A  G  A  G  A  G  T  G  C  A  C  A  A  C  G  G  A  A  T  A  C  C  C  T  G  A  T  G  G  G  A  G  G  A  T  A  A  T  C  A  T  G  G  T  A  T  T  G  C  C  A  G  A  C  G  A  C  C  C  T  A  A  A  T  A  T  G  C  A  C  T  G  A  A  A  A  A  G  G  T  T  G  A  T  G  A  G  A  T  T  A  G  A  G  A  A  A  T  G  G  T  T  G  A  T  A  A  T  G  A  C  C  T  G  G  G  T  T  T  T  C  A  G  C  A  G  G  T  T  C  C  T  C  T  A  A  G  G  C  T  C  C  A  T  T  C  C  A  G  A  A  C  C  A  A  G  A  C  T  C  T  T  C  T  G  T  T  T  A  T  T  A  G  C  A  G  T  G  A  C  A  A  A  A  A  A  G  T  T  G  C  T  G  G  G  T  G  T  T  T  A  A  T  A  G  C  A  G  A  A  C  A  T  A  T  C  C  A  G  T  G  G  G  G  
+  |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 |0 
+T |0 |0 |0 |0 |0 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 |1 
+
+---------------------------------
+-----SUBSEQUENCE BUILD STEPS-----
+---------------------------------
+i: 1	j: 280	|  value: -
+i: 1	j: 279	|  value: -
+i: 1	j: 278	|  value: -
+i: 1	j: 277	|  value: -
+i: 1	j: 276	|  value: T
+
+
+SEQ17: T
+SEQ24: GACATGCCAAGCTCTCAGGATATCCAGAAGGAAGAGCATCCCATTGTGGAGAACAAAGAGAGTGCACAACGGAATACCCTGATGGGAGGATAATCATGGTATTGCCAGACGACCCTAAATATGCACTGAAAAAGGTTGATGAGATTAGAGAAATGGTTGATAATGACCTGGGTTTTCAGCAGGTTCCTCTAAGGCTCCATTCCAGAACCAAGACTCTTCTGTTTATTAGCAGTGACAAAAAAGTTGCTGGGTGTTTAATAGCAGAACATATCCAGTGGGG
+LONGEST COMMON SUBSEQUENCE: T
+LCS Size: 1

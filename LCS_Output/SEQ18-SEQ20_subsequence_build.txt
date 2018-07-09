@@ -1,0 +1,52 @@
+==============================================
+========= LONGEST COMMON SUBSEQUENCE =========
+==============================================
+
+SEQ18: AAACTGGACATTCAGG
+SEQ20: AAATA
+
+---------------------------
+-----CALCULATED MATRIX-----
+---------------------------
+      A  A  A  T  A  
+  |0 |0 |0 |0 |0 |0 
+A |0 |1 |1 |1 |1 |1 
+A |0 |1 |2 |2 |2 |2 
+A |0 |1 |2 |3 |3 |3 
+C |0 |1 |2 |3 |3 |3 
+T |0 |1 |2 |3 |4 |4 
+G |0 |1 |2 |3 |4 |4 
+G |0 |1 |2 |3 |4 |4 
+A |0 |1 |2 |3 |4 |5 
+C |0 |1 |2 |3 |4 |5 
+A |0 |1 |2 |3 |4 |5 
+T |0 |1 |2 |3 |4 |5 
+T |0 |1 |2 |3 |4 |5 
+C |0 |1 |2 |3 |4 |5 
+A |0 |1 |2 |3 |4 |5 
+G |0 |1 |2 |3 |4 |5 
+G |0 |1 |2 |3 |4 |5 
+
+---------------------------------
+-----SUBSEQUENCE BUILD STEPS-----
+---------------------------------
+i: 16	j: 5	|  value: -
+i: 15	j: 5	|  value: -
+i: 14	j: 5	|  value: A
+i: 13	j: 4	|  value: -
+i: 12	j: 4	|  value: T
+i: 11	j: 3	|  value: -
+i: 10	j: 3	|  value: A
+i: 9	j: 2	|  value: -
+i: 8	j: 2	|  value: A
+i: 7	j: 1	|  value: -
+i: 6	j: 1	|  value: -
+i: 5	j: 1	|  value: -
+i: 4	j: 1	|  value: -
+i: 3	j: 1	|  value: A
+
+
+SEQ18: AAACTGGACATTCAGG
+SEQ20: AAATA
+LONGEST COMMON SUBSEQUENCE: AAATA
+LCS Size: 4

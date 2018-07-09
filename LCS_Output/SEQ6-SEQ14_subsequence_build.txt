@@ -1,0 +1,165 @@
+==============================================
+========= LONGEST COMMON SUBSEQUENCE =========
+==============================================
+
+SEQ6: GGAAAGCAAAACAGGTACTAAAAGAAGCTCTAGACTCTTGGAACTGAAGCATGGAAAAGCACAGAGCAAAGAACCACCAAAAAATTCAAAAAAAGATATACATAGTAGTTGTACAAAGACAGAACCCTTAAAGGGCAGAT
+SEQ14: G
+
+---------------------------
+-----CALCULATED MATRIX-----
+---------------------------
+      G  
+  |0 |0 
+G |0 |1 
+G |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+G |0 |1 
+C |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+C |0 |1 
+A |0 |1 
+G |0 |1 
+G |0 |1 
+T |0 |1 
+A |0 |1 
+C |0 |1 
+T |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+G |0 |1 
+A |0 |1 
+A |0 |1 
+G |0 |1 
+C |0 |1 
+T |0 |1 
+C |0 |1 
+T |0 |1 
+A |0 |1 
+G |0 |1 
+A |0 |1 
+C |0 |1 
+T |0 |1 
+C |0 |1 
+T |0 |1 
+T |0 |1 
+G |0 |1 
+G |0 |1 
+A |0 |1 
+A |0 |1 
+C |0 |1 
+T |0 |1 
+G |0 |1 
+A |0 |1 
+A |0 |1 
+G |0 |1 
+C |0 |1 
+A |0 |1 
+T |0 |1 
+G |0 |1 
+G |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+G |0 |1 
+C |0 |1 
+A |0 |1 
+C |0 |1 
+A |0 |1 
+G |0 |1 
+A |0 |1 
+G |0 |1 
+C |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+G |0 |1 
+A |0 |1 
+A |0 |1 
+C |0 |1 
+C |0 |1 
+A |0 |1 
+C |0 |1 
+C |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+T |0 |1 
+T |0 |1 
+C |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+G |0 |1 
+A |0 |1 
+T |0 |1 
+A |0 |1 
+T |0 |1 
+A |0 |1 
+C |0 |1 
+A |0 |1 
+T |0 |1 
+A |0 |1 
+G |0 |1 
+T |0 |1 
+A |0 |1 
+G |0 |1 
+T |0 |1 
+T |0 |1 
+G |0 |1 
+T |0 |1 
+A |0 |1 
+C |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+G |0 |1 
+A |0 |1 
+C |0 |1 
+A |0 |1 
+G |0 |1 
+A |0 |1 
+A |0 |1 
+C |0 |1 
+C |0 |1 
+C |0 |1 
+T |0 |1 
+T |0 |1 
+A |0 |1 
+A |0 |1 
+A |0 |1 
+G |0 |1 
+G |0 |1 
+G |0 |1 
+C |0 |1 
+A |0 |1 
+G |0 |1 
+A |0 |1 
+T |0 |1 
+
+---------------------------------
+-----SUBSEQUENCE BUILD STEPS-----
+---------------------------------
+i: 140	j: 1	|  value: -
+i: 139	j: 1	|  value: -
+i: 138	j: 1	|  value: G
+
+
+SEQ6: GGAAAGCAAAACAGGTACTAAAAGAAGCTCTAGACTCTTGGAACTGAAGCATGGAAAAGCACAGAGCAAAGAACCACCAAAAAATTCAAAAAAAGATATACATAGTAGTTGTACAAAGACAGAACCCTTAAAGGGCAGAT
+SEQ14: G
+LONGEST COMMON SUBSEQUENCE: G
+LCS Size: 0

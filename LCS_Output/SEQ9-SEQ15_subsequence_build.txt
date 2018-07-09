@@ -1,0 +1,56 @@
+==============================================
+========= LONGEST COMMON SUBSEQUENCE =========
+==============================================
+
+SEQ9: AAACAAAGGGACACAGGGACACCAAGGG
+SEQ15: CG
+
+---------------------------
+-----CALCULATED MATRIX-----
+---------------------------
+      C  G  
+  |0 |0 |0 
+A |0 |0 |0 
+A |0 |0 |0 
+A |0 |0 |0 
+C |0 |1 |1 
+A |0 |1 |1 
+A |0 |1 |1 
+A |0 |1 |1 
+G |0 |1 |2 
+G |0 |1 |2 
+G |0 |1 |2 
+A |0 |1 |2 
+C |0 |1 |2 
+A |0 |1 |2 
+C |0 |1 |2 
+A |0 |1 |2 
+G |0 |1 |2 
+G |0 |1 |2 
+G |0 |1 |2 
+A |0 |1 |2 
+C |0 |1 |2 
+A |0 |1 |2 
+C |0 |1 |2 
+C |0 |1 |2 
+A |0 |1 |2 
+A |0 |1 |2 
+G |0 |1 |2 
+G |0 |1 |2 
+G |0 |1 |2 
+
+---------------------------------
+-----SUBSEQUENCE BUILD STEPS-----
+---------------------------------
+i: 28	j: 2	|  value: G
+i: 27	j: 1	|  value: -
+i: 26	j: 1	|  value: -
+i: 25	j: 1	|  value: -
+i: 24	j: 1	|  value: -
+i: 23	j: 1	|  value: C
+
+
+SEQ9: AAACAAAGGGACACAGGGACACCAAGGG
+SEQ15: CG
+LONGEST COMMON SUBSEQUENCE: CG
+LCS Size: 1
